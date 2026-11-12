@@ -22,7 +22,7 @@ A lightweight, minimalist Windows system tray utility for managing and auto-clea
 1. Python 3.x installed on your system.
 2. Install the required dependencies:
    ```bash
-  pip install pystray Pillow winshell
+    pip install pystray Pillow winshel
     
-    > **⚠️ Antivirus Warning (False Positive)**
+##> ⚠️ Antivirus Warning (False Positive)
 > Windows Defender or other antivirus software may occasionally flag the compiled `MiniBin.exe` as a threat (e.g., `Trojan:Win32/Bearfoos.B!ml`). This is a **common false positive** caused by PyInstaller packaging an uncompiled Python script. MiniBin is 100% safe and open-source. To prevent Windows from blocking it, simply add the application folder to your antivirus exclusions.
